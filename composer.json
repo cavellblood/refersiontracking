@@ -1,0 +1,14 @@
+{
+	"name": "cavellblood/refersiontracking",
+	"description": "Implement Server-side JSON Webhook for Refersion",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Cavell L. Blood",
+			"homepage": "https://cavellblood.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

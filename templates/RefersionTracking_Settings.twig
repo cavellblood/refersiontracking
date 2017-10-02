@@ -1,0 +1,34 @@
+{#
+/**
+ * Refersion Tracking plugin for Craft CMS
+ *
+ * Refersion Tracking Settings.twig
+ *
+ * @author    Cavell L. Blood
+ * @copyright Copyright (c) 2017 Cavell L. Blood
+ * @link      https://cavellblood.com
+ * @package   RefersionTracking
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "refersiontracking/css/RefersionTracking_Style.css" %}
+{% includeJsResource "refersiontracking/js/RefersionTracking_Script.js" %}
+
+{{ forms.textField({
+    label: 'Public Key',
+    instructions: 'You can find it under <a href="https://www.refersion.com/base/settings/integrations/api">Account &rarr; Settings &rarr; Refersion API.</a>',
+    id: 'publicKey',
+    name: 'publicKey', 
+    value: settings['publicKey']})
+}}
+
+{{ forms.textField({
+    label: 'Secret Key',
+    instructions: 'You can find it under <a href="https://www.refersion.com/base/settings/integrations/api">Account &rarr; Settings &rarr; Refersion API.</a>',
+    id: 'secretKey',
+    name: 'secretKey', 
+    value: settings['secretKey']})
+}}

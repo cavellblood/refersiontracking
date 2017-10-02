@@ -1,0 +1,26 @@
+{#
+/**
+ * Refersion Tracking plugin for Craft CMS
+ *
+ * Refersion TrackingWidget Settings
+ *
+ * @author    Cavell L. Blood
+ * @copyright Copyright (c) 2017 Cavell L. Blood
+ * @link      https://cavellblood.com
+ * @package   RefersionTracking
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "refersiontracking/css/RefersionTracking_Style.css" %}
+{% includeJsResource "refersiontracking/js/RefersionTracking_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting',
+    value: settings['someSetting']})
+}}
