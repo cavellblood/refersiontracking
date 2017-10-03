@@ -28,7 +28,7 @@ class RefersionTrackingController extends BaseController
     public function actionSend()
     {
 
-        RefersionTrackingPlugin::log("Path: " . craft()->request->getQueryStringWithoutPath(), LogLevel::Info, false);
+        RefersionTrackingPlugin::log("Path: " . craft()->request->getQueryStringWithoutPath(), LogLevel::Info, true);
 
         (int)$itemCount = craft()->request->getParam('items');
         $items = array();
