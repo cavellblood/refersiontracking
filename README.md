@@ -2,7 +2,7 @@
 
 Implement Server-side JSON Webhook for Refersion
 
-![Screenshot](resources/screenshots/plugin_logo.png)
+![Screenshot](resources/screenshots/refersiontracking1.png)
 
 ## Installation
 
