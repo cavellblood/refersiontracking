@@ -18,11 +18,14 @@ Refersion Tracking works on Craft 2.4.x and Craft 2.5.x.
 
 ## Refersion Tracking Overview
 
--Insert text here-
+Refersion Tracking sends a JSON webhook to the Refersion API with information about the customer&rsquo;s order.
 
 ## Configuring Refersion Tracking
 
--Insert text here-
+* **Public Key** - Enter your Refersion Public Key. It can be found under your Refersion Account &rarr; Settings &rarr; Refersion API. If you don&rsquo;t have an API key you may need to generate a new one.
+* **Secret Key** - Enter your Refersion Secret Key. It can be found under your Refersion Account &rarr; Settings &rarr; Refersion API. If you don&rsquo;t have an API key you may need to generate a new one.
+
+
 
 ## Using Refersion Tracking
 
@@ -32,6 +35,6 @@ Refersion Tracking works on Craft 2.4.x and Craft 2.5.x.
 
 Some things to do, and ideas for potential features:
 
-* Release it
+* Allow public and secret keys to be configured via `refersionTracking.php` file which could be set to environmental variables.
 
 Brought to you by [Cavell L. Blood](https://cavellblood.com)
