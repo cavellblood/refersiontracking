@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2017 Cavell L. Blood
  * @link      https://cavellblood.com
  * @package   RefersionTracking
- * @since     1.0.0
+ * @since     1.0.3
  */
 namespace Craft;
 class RefersionTrackingWidget extends BaseWidget
